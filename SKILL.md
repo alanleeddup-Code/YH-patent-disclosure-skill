@@ -1,6 +1,8 @@
 ---
 name: yh-patent-disclosure-skill
 description: "Use when the user needs Chinese patent mining, prior-art search, patent avoidance discussion, technical disclosure drafting, YH 15-section disclosure generation, Word export, or iterative correction of an existing patent disclosure."
+user-invocable: true
+argument-hint: "[可选：项目路径或技术主题关键词]"
 allowed-tools: Read, Write, Edit, Grep, Glob, WebSearch, Bash
 ---
 
